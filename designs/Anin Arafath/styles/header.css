@@ -5,11 +5,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    padding: 10px 0px;
 
 }
 
 .header-logo {
     width: 105.18px;
+    cursor: pointer;
 }
 
 .menus {
@@ -57,5 +60,15 @@ header {
 .h-button:hover {
     background: #E2DFD2;
     /* color: #888888; */
+
+}
+
+.bg-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+    width: 100%;
+    z-index: -1;
 
 }

@@ -1,0 +1,90 @@
+.title {
+    text-align: center;
+    font-size: 60px;
+    color: #1C3F39;
+    margin-top: 50px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #556561;
+    margin-top: 28px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+}
+
+.main {
+    z-index: 100;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.red-quran-btn {
+    background: #F2AC0D;
+    font-size: 14px;
+    border: none;
+    color: #1C3F39;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 4px;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 28px;
+
+
+}
+
+.red-quran-btn>img {
+    width: 17px;
+    height: 16px;
+
+    margin-right: 8px;
+}
+
+.red-quran-btn:hover {
+    background: #FFC84D;
+}
+
+.audio-quran-btn {
+    background: transparent;
+    font-size: 14px;
+    border: none;
+    color: #1C3F39;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 4px;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 28px;
+    border: 1px solid #1C3F39;
+
+
+}
+
+.audio-quran-btn>img {
+    width: 10px;
+    height: 16px;
+    margin-right: 8px;
+
+}
+
+.audio-quran-btn:hover {
+    background: #54545428;
+    border: 0px solid #1C3F39;
+
+
+}
