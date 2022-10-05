@@ -31,8 +31,11 @@
     margin: 28px 330px;
 }
 
-.main {
-    z-index: 100;
+main {
+    background: url("../assets//overlay.png");
+    background-position: center;
+    background-size: contain;
+
 }
 
 .flex-center {
