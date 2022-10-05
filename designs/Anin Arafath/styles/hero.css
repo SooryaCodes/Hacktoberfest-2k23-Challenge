@@ -6,6 +6,19 @@
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
+    position: relative;
+}
+
+.title>span::before {
+    content: "";
+    width: 203px;
+    height: 94px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #F2AC0D;
+
+
+
 }
 
 .subtitle {
@@ -84,7 +97,7 @@
 
 .audio-quran-btn:hover {
     background: #54545428;
-    border: 0px solid #1C3F39;
+    border: 1px solid #54545428;
 
 
 }
