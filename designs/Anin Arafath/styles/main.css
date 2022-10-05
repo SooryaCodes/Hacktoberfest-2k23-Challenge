@@ -1,5 +1,6 @@
 body {
     background-color: #E9E6D7;
+
 }
 
 * {
@@ -29,4 +30,12 @@ p {
 .vl {
     border-left: 1px solid #315E56;
     height: 70px;
+}
+
+body {
+
+
+    overflow-y: hidden;
+
+
 }
