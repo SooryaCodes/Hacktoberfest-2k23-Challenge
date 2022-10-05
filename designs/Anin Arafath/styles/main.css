@@ -25,3 +25,8 @@ p {
     font-size: 18px;
     font-weight: 200;
 }
+
+.vl {
+    border-left: 1px solid #315E56;
+    height: 70px;
+}
