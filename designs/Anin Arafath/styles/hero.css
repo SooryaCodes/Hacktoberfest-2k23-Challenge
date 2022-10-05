@@ -124,8 +124,8 @@
 
 .hero-info {
     background-color: #1C3F39;
-    height: 210px;
-    padding: 0 100px 0 100px;
+    /* height: 210px; */
+    padding: 60px 100px 60px 100px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -175,6 +175,16 @@
     .subtitle {
 
         margin: 28px 150px;
+
+    }
+
+    .hero-info>ul {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .vl {
+        display: none;
 
     }
 }
