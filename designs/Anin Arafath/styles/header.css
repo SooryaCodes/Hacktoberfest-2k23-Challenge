@@ -1,0 +1,74 @@
+header {
+    height: 81px;
+    margin: 0 100px 0 100px;
+    border-bottom: 1px solid #556561;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 0px;
+
+}
+
+.header-logo {
+    width: 105.18px;
+    cursor: pointer;
+}
+
+.menus {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: 'Manrope', sans-serif;
+    color: #556561;
+
+}
+
+.menus>li:hover {
+    color: #000;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.h-button-bg {
+    background: #26534C;
+    font-size: 14px;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 4px;
+    transition: .2s ease-in-out;
+
+}
+
+.h-button-bg:hover {
+    background: #1F453F;
+}
+
+.h-button {
+    background: transparent;
+    font-size: 14px;
+    border: none;
+    color: black;
+    padding: 15px 35px;
+    border-radius: 4px;
+    transition: .2s ease-in-out;
+
+}
+
+.h-button:hover {
+    background: #E2DFD2;
+    /* color: #888888; */
+
+}
+
+.bg-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+    width: 100%;
+    z-index: -1;
+
+}
