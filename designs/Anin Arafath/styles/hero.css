@@ -162,7 +162,7 @@
     }
 }
 
-@media only screen and (max-width:564px) {
+@media only screen and (max-width:604px) {
     .title {
         font-size: 36px;
         margin-top: 20px;
@@ -176,6 +176,14 @@
     .subtitle {
         font-size: 14px;
         margin: 20px 30px;
+
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .her-btn {
+        font-size: 12px;
+        padding: 15px 25px;
 
     }
 }
