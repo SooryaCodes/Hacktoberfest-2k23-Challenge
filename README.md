@@ -1,4 +1,4 @@
-# Hacktoberfest 2k220 Challenge
+# Hacktoberfest 2k22 Challenge
 
 1. Download any design from [uidesigndaily.com](https://uidesigndaily.com) or any other websites ( dribbble, behance ).
 
