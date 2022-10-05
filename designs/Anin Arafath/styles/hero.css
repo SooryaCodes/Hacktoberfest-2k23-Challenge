@@ -180,7 +180,7 @@
     }
 }
 
-@media only screen and (max-width:390px) {
+@media only screen and (max-width:400px) {
     .her-btn {
         font-size: 12px;
         padding: 15px 25px;
