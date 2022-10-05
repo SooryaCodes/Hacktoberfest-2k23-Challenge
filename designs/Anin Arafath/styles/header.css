@@ -105,3 +105,9 @@ header {
         display: block;
     }
 }
+
+@media only screen and (max-width:425px) {
+    header {
+        margin: 0 21px 0 21px;
+    }
+}

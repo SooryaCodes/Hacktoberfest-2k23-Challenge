@@ -28,6 +28,7 @@
     margin-top: 28px;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
+    margin: 28px 330px;
 }
 
 .main {
@@ -143,4 +144,38 @@
 .hero-info>ul>li>p {
     color: #B7CBC7;
 
+}
+
+@media only screen and (max-width:1024px) {
+    .subtitle {
+
+        margin: 28px 200px;
+
+    }
+}
+
+@media only screen and (max-width:880px) {
+    .subtitle {
+
+        margin: 28px 150px;
+
+    }
+}
+
+@media only screen and (max-width:564px) {
+    .title {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .title>span::before {
+        width: 125px;
+        height: 57px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin: 20px 30px;
+
+    }
 }
