@@ -32,7 +32,7 @@
 }
 
 main {
-    background: url("../assets//overlay.png");
+    background: url("../assets/overlay.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,6 +192,13 @@ main {
         display: none;
 
     }
+
+    main {
+        background: url("../assets/overlay-1.png");
+
+
+
+    }
 }
 
 @media only screen and (max-width:604px) {
@@ -222,6 +229,8 @@ main {
 
 
     }
+
+
 }
 
 @media only screen and (max-width:400px) {
