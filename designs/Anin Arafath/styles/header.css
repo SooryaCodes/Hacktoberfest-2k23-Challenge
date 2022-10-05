@@ -5,7 +5,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    /* position: relative; */
     padding: 10px 0px;
 
 }
@@ -13,6 +13,12 @@ header {
 .header-logo {
     width: 105.18px;
     cursor: pointer;
+}
+
+.menu-btn {
+    width: 18px;
+    height: 16px;
+    display: none;
 }
 
 .menus {
@@ -68,7 +74,42 @@ header {
     left: 0;
     right: 0;
     top: 120px;
-    width: 100%;
+    /* width: max-content; */
+    height: 100%;
+    bottom: 0;
     z-index: -1;
 
+}
+
+
+@media only screen and (max-width:1000px) {
+    header {
+        margin: 0 60px 0 60px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        border-bottom: 0px solid #556561;
+
+    }
+
+    .menus {
+        display: none;
+    }
+
+    .h-bt {
+        display: none;
+
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    header {
+        margin: 0 21px 0 21px;
+    }
 }
