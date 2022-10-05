@@ -115,3 +115,32 @@
     height: 444px;
 
 }
+
+.hero-info {
+    background-color: #1C3F39;
+    height: 210px;
+    padding: 0 100px 0 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-info>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-info>ul>li>h2 {
+    color: #F2AC0D;
+
+}
+
+.hero-info>ul>li>p {
+    color: #B7CBC7;
+
+}

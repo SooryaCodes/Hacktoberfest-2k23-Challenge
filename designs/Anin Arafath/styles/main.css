@@ -1,3 +1,27 @@
 body {
     background-color: #E9E6D7;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.container {
+    /* width: 100px;
+    height: 100px;
+    background: #000; */
+    width: 100%;
+}
+
+.h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 200;
+}
