@@ -116,10 +116,10 @@
     width: 670px;
     height: 444px;
 
-    height: 25%;
+}
 
-
-
+.hero-img-section>.sm {
+    width: 470px;
 }
 
 .hero-info {
@@ -153,10 +153,22 @@
 
 @media only screen and (max-width:1024px) {
     .subtitle {
-
         margin: 28px 200px;
 
     }
+
+    .hero-img-section>img {
+        width: 520px;
+        height: 294px;
+
+    }
+
+    .hero-img-section>.sm {
+        width: 320px;
+        height: 294;
+
+    }
+
 }
 
 @media only screen and (max-width:880px) {
@@ -181,6 +193,18 @@
     .subtitle {
         font-size: 14px;
         margin: 20px 30px;
+
+    }
+
+    .hero-img-section>img {
+        width: 195px;
+        height: 160px;
+
+    }
+
+    .hero-img-section>.sm {
+        width: 136px;
+
 
     }
 }
