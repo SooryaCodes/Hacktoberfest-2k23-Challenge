@@ -107,13 +107,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+
     gap: 20px;
+    margin: 80px 55px 0 55px;
 }
 
 .hero-img-section>img {
-    width: 670px;
+    width: 55%;
     height: 444px;
+
 
 
 }
