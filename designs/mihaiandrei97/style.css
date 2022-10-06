@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+
+:root {
+    --bg-color: rgb(243, 246, 254);
+    --light-card-bg: rgb(255,255,255);
+    --dark-color: rgb(23,27,57);
+    --light-gray: rgb(235,237,252);
+    --text-color: rgb(95,98,123);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', 'Sans-serif';
+}
+
+body {
+    background-color: rgb(243, 246, 254);
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    border-radius: 2rem;
+    width: 300px;
+    height: 500px;
+    background-color: var(--light-card-bg);
+    padding: 2rem;
+    position: relative;
+}
+
+.card__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.card__timer {
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card::before {
+    content: '';
+    width: 300px;
+    height: 600px;
+    background-color: var(--dark-color);
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    z-index: -1;
+    border-radius: 2rem;
+}
+
+
+.card__timer-countdown {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.card__timer-remaining {
+    padding: 0.5rem 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.card__timer-button {
+    width: 110px;
+    border: 0;
+    border-radius: 2rem;
+    padding: 1rem 0.8rem;
+    color: var(--light-gray);
+    font-weight: bold;
+    background-color: var(--dark-color);
+    align-self: center;
+}
+
+.card__table {
+    margin-top: 4rem;
+    font-size: 0.8rem;
+}
+
+.card__table-header {
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--text-color);
+}
+
+.card__table-row {
+    padding: 0.4rem;
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.card__table-row:nth-child(odd) {
+    background-color: var(--light-gray);
+}
+
+
+/* https://uidesigndaily.com/posts/figma-contraction-timer-day-1556 */
