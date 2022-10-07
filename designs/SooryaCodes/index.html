@@ -1,44 +1,249 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cloud File Upload</title>
-    <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="style.css" />
+    <!-- Primary Meta Tags -->
+    <title>Colorssh</title>
+    <meta name="title" content="Colorssh" />
+    <meta
+      name="description"
+      content="Generate shades of color with Colorssh."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://colorssh.netlify.app/" />
+    <meta property="og:title" content="Colorssh" />
+    <meta
+      property="og:description"
+      content="Generate shades of color with Colorssh."
+    />
+    <meta
+      property="og:image"
+      content="https://www.site-shot.com/cached_image/5kkDAhJREe2mHQJCrBEABg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://colorssh.netlify.app/" />
+    <meta property="twitter:title" content="Colorssh" />
+    <meta
+      property="twitter:description"
+      content="Generate shades of color with Colorssh."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.site-shot.com/cached_image/5kkDAhJREe2mHQJCrBEABg"
+    />
+
+    <!-- ---------- FONTS ---------- -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap"
+      rel="stylesheet"
+      <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ---------- REMIXICON ---------- -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@6/animations/scale.css"
+    />
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="./styles/animation.css" />
+
+    <!-- ---------- STYLESHEETS ---------- -->
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
-    <div class="w-full h-screen flex items-center justify-center bg-blue-200">
-      <div class="shadow-md bg-white rounded-2xl p-6 w-full max-w-screen-md">
-        <h3 class="text-slate-700 font-semibold mb-4 text-lg">Upload file</h3>
-        <div
-          class="border-dashed border-2 border-gray-300 rounded-xl h-60 flex items-center justify-center flex-col"
+    <!-- ---------- LOADER ---------- -->
+    <div class="loader flex aic jcc">
+      <div class="loader__spinner">
+        <div class="loader__dot1"></div>
+        <div class="loader__dot2"></div>
+      </div>
+    </div>
+    <!-- ---------- END LOADER ---------- -->
+
+    <!-- ---------- HEADER ---------- -->
+    <header class="header">
+      <div class="container flex aic jcsb">
+        <span class="header__logo">Colorssh.</span>
+        <a
+          href="https://github.com"
+          class="header__btn button--icon no-bg button--primary flex aic jcc"
+          target="_blank"
         >
-          <span
-            class="w-14 h-14 flex items-center justify-center bg-blue-50 rounded-full"
-          >
-            <img class="" src="./assets/file-upload.svg" alt="Upload file" />
-          </span>
-          <span class="text-sm text-center text-slate-700 mt-2"
-            ><a href="" class="text-indigo-600 font-medium">Click to upload</a>
-            or drag and drop <br />
-            SVG, PNG, JPG or GIF (max 800 x 400px)</span
-          >
+          <i class="ri-github-fill"></i>
+        </a>
+      </div>
+    </header>
+    <!-- ---------- END HEADER ---------- -->
+
+    <!-- ---------- MAIN ---------- -->
+    <main>
+      <div class="container">
+        <!-- ---------- HERO ---------- -->
+        <div class="hero flex flex-col aic">
+          <h1 class="hero__title">Colorssh.</h1>
+          <span class="hero__subtitle">Generate shades of color.</span>
+          <p class="hero__description">
+            Search value of color in hex, rgb, hsl... formats or use colors.
+            picker.
+          </p>
         </div>
-        <div class="">
-          <div class="">
-            <div class=""><img src="" alt="" /></div>
-            <div class="">
-              <div>
-                <span>Tech design requirements.mp4</span> <span>delete</span>
+        <!-- ---------- END HERO ---------- -->
+
+        <!-- ---------- SEARCH ---------- -->
+        <div class="search flex flex-col jcc aic">
+          <div class="search__bar flex aic jcsb">
+            <input
+              type="text"
+              placeholder="Search..."
+              value="#5f1aff"
+              class="search__input"
+              onchange="handleSearch()"
+            />
+            <div class="search__action flex aic">
+              <toolcool-color-picker color="#5f1aff" id="color-picker">
+              </toolcool-color-picker>
+              <div
+                class="search__btn button--icon button--primary"
+                onClick="handleSearch()"
+              >
+                <i class="ri-search-line"></i>
               </div>
-              <span>16mb</span>
-              <span>Progress</span>
+            </div>
+          </div>
+        </div>
+        <!-- ---------- END SEARCH ---------- -->
+        <!-- ---------- CARDS ---------- -->
+        <div class="cards flex"></div>
+        <!-- ---------- END CARDS ---------- -->
+      </div>
+
+      <!-- ---------- MODAL ---------- -->
+      <div class="modal flex aic jcc">
+        <div class="modal__card">
+          <div class="modal__header flex aic jcsb">
+            <span class="modal__title">Quick View</span>
+            <button
+              class="modal__closebtn button--icon no-bg"
+              onclick="handleView()"
+            >
+              <i class="ri-close-fill"></i>
+            </button>
+          </div>
+
+          <div class="modal__color"></div>
+          <div class="modal__data">
+            <div class="modal__item flex aic jcsb">
+              <div class="modal-datawrap flex flex-col">
+                <span class="modal__colortype">HEX</span>
+                <span class="modal__colorvalue flex aic jcsb">#FF703 </span>
+              </div>
+              <button
+                onclick="handleModalCopy(event)"
+                class="modal__copybtn button--icon no-bg"
+              >
+                <i class="ri-file-copy-line"></i>
+              </button>
+            </div>
+            <div class="modal__item flex aic jcsb">
+              <div class="modal-datawrap flex flex-col">
+                <span class="modal__colortype">RGB</span>
+                <span class="modal__colorvalue flex aic jcsb"
+                  >rgba(111, 100, 502)
+                </span>
+              </div>
+              <button
+                onclick="handleModalCopy(event)"
+                class="modal__copybtn button--icon no-bg"
+              >
+                <i class="ri-file-copy-line"></i>
+              </button>
+            </div>
+            <div class="modal__item flex aic jcsb">
+              <div class="modal-datawrap flex flex-col">
+                <span class="modal__colortype">RGBA</span>
+                <span class="modal__colorvalue flex aic jcsb"
+                  >rgba(111, 100, 502, 1)
+                </span>
+              </div>
+              <button
+                onclick="handleModalCopy(event)"
+                class="modal__copybtn button--icon no-bg"
+              >
+                <i class="ri-file-copy-line"></i>
+              </button>
+            </div>
+            <div class="modal__item flex aic jcsb">
+              <div class="modal-datawrap flex flex-col">
+                <span class="modal__colortype">HSL</span>
+                <span class="modal__colorvalue flex aic jcsb"
+                  >hsl(28, 100%, 50%)
+                </span>
+              </div>
+              <button
+                onclick="handleModalCopy(event)"
+                class="modal__copybtn button--icon no-bg"
+              >
+                <i class="ri-file-copy-line"></i>
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- ---------- END MODAL ---------- -->
+    </main>
+    <!-- ---------- END MAIN ---------- -->
+    <!-- ---------- FOOTER ---------- -->
+    <footer class="footer flex aic jcc">
+      <span class="footer__text"
+        >Created by
+        <a
+          class="footer__link"
+          href="https://www.linkedin.com/in/sooryakrishna/"
+          target="_blank"
+          >Soorya Krishna</a
+        >
+        with ❤️</span
+      >
+    </footer>
+    <!-- ---------- END FOOTER ---------- -->
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="sooryakriz"
+      data-description="Support me on Buy me a coffee!"
+      data-message=""
+      data-color="#5F7FFF"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
+    <script src="./scripts/toolcool-color-picker.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/values.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+      integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
