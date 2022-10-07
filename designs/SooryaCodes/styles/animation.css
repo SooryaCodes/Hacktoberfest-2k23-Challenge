@@ -1,0 +1,30 @@
+.card__animate {
+  animation: scale-up-center 0.4s;
+}
+
+.modal__animate--up {
+  animation: scale-up-center 0.4s;
+}
+
+.modal__animate--down{
+    animation:scale-down-center 0.4s;
+}
+
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
