@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-family: 'Mulish', sans-serif;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #F0D3D3;
+}
+.wrapper {
+  position: relative;
+  width: 1057px;
+  height: 708px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.imgBx{
+  position: relative;
+  width: 40%;
+  height: 100%;
+}
+.imgBx img{
+  width: 100%;
+  height: 100%;
+}
+.logIn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+.description{
+  width: 80%;
+}
+.txt-left{
+  text-align: left;
+}
+.txt-center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.txt-grey{
+  font-size: 0.87rem;
+  color: #838A9E;
+}
+.flex{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 50px 0px;
+}
+.m-30{
+  margin: 30px 0px 30px 0px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.logIn .formBx{
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+   width: 70%;
+   height: 85%;
+}
+.logIn .formBx h2{
+   font-size: 36px;
+   text-transform: uppercase;
+   font-family: 'Rokkitt', serif;
+}
+.logIn .formBx p{
+  font-size: 1rem;
+}
+.logIn .formBx .input{
+  width: 100%;
+  height: 50px;
+}
+input{
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 20px 20px;
+  border: 1px solid #CAD6E4;
+  border-radius: 5px;
+}
+.password{
+  font-size: 1rem;
+  color: #0C6787;
+}
+.btn{
+  width: 35%;
+  height: 60%;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: #046586;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.submit-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  font-size: 1.1rem;
+}
+.flex::after{
+  content: "";
+  top: 100%;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #CAD6E4;
+}
+.social{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between
+}
+.fb-btn,
+.google-btn{
+  width: 207px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #000;
+  box-shadow: none;
+  border: 1px solid #CAD6E4;
+  padding: 20px;
+  font-size: 1rem;
+}
+.btn img{
+  width: 20%;
+  margin-right: 10px;
+}
+.txt2{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  font-size: 0.87rem;
+}
+.link{
+  color: #046586;
+}
+
+@media only screen and (max-width: 900px){
+  .imgBx{
+       display: none;
+  }
+  .wrapper {
+    position: relative;
+    margin: 20px;
+  }
+  .logIn{
+    width: 100%;
+  }
+  .logIn .formBx{
+    width: 80%;
+  }
+  .submit-btn{
+    padding: 30px 30px;
+  }
+}
+@media only screen and (min-width: 900px){
+  html{
+    font-size: 100%;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 900px){
+  html{
+    font-size: 80%;
+  }
+}
+@media  (max-width: 300px){
+  html{
+    font-size: 70%;
+  }
+}
