@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: #E5E5E5;
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    color: #132B50;
+    font-size: 14px;
+}
+
+
+.body-wrapper {
+    width: 584px;
+    height: 577px;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 32px;
+}
+
+
+
+
+/* profile section */
+
+.profile-image {
+    height: 78px;
+    width: 78px;
+    border-radius: 50%;
+    background-color: rgb(171, 85, 179);
+}
+
+.profile-tag {
+    font-weight: 500;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.profile-details {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/* input field */
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.label {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.input-container {
+    border: 1px solid #132B50;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.input-container>input {
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    letter-spacing: 3px;
+}
+
+
+
+
+/* bottom section */
+
+.bottom-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom-section *:nth-child(2) {
+    width: 250px;
+    padding-left: 10px;
+}
+
+
+
+/* stay signed in switch  */
+
+.switch-toggler {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #132B50;
+}
+
+.switch {
+    border: 1px solid #132B50;
+    width: 65px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+/* continue button */
+
+.continue-btn {
+    background-color: #132B50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Reset password link */
+
+.link {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16px;
+    cursor: pointer;
+}

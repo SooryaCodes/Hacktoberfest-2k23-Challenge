@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HACKTOBERFEST-2K22-CHALLENGE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body style="font-family: 'Fira Code', monospace">
+    <nav class="h-20 w-full border-b px-5 md:px-10 fixed top-0 bg-white">
+      <div
+        class="w-full h-full flex items-center justify-between container mx-auto"
+      >
+        <span class="font-semibold text-lg">Hacktoberfest</span>
+        <a
+          class="flex items-center justify-center gap-2 text-sm bg-emerald-600 hover:bg-emerald-700 text-white px-5 md:px-8 py-3 rounded-md hover:shadow-md duration-500"
+          href="https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/"
+          target="_blank"
+          ><i class="text-lg ri-github-fill"></i> Contribute</a
+        >
+      </div>
+    </nav>
+    <div
+      class="w-full min-h-screen card_container container mx-auto items-start justify-center gap-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 pt-32"
+    ></div>
+    <div class="mt-10 border-t h-20 bg-white flex items-center justify-center">
+      <span class="text-gray-700"
+        >Created by
+        <a
+          target="_blank"
+          href="https://github.com/SooryaCodes"
+          class="text-gray-800 hover:underline font-semibold"
+          >Soorya Krishna</a
+        >
+        with ❤️</span
+      >
+    </div>
+    <script>
+      const contributions = [
+        {
+          thumbnail: "./images/Anin Arafath.png",
+          contributor: "Anin Arafath",
+          contributor_profile: "https://github.com/aninarafath6",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/Anin%20Arafath",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/Anin%20Arafath/",
+        },
+        {
+          thumbnail: "./images/Soorya Krishna.png",
+          contributor: "Soorya Kriz",
+          contributor_profile: "https://github.com/SooryaCodes",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/SooryaCodes",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/SooryaCodes/",
+        },
+        {
+          thumbnail: "./images/Adarsh.png",
+          contributor: "Adarsh",
+          contributor_profile: "https://github.com/heyaadarsh",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/heyaadarsh",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/heyaadarsh/",
+        },
+        {
+          thumbnail: "./images/Khushi.png",
+          contributor: "Khushi",
+          contributor_profile: "https://github.com/khushi2502",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/khushi2502",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/khushi2502/indedx.html",
+        },
+        {
+          thumbnail: "./images/Mihaiandrei.png",
+          contributor: "Mihaiandrei",
+          contributor_profile: "https://github.com/mihaiandrei97",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/mihaiandrei97",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/mihaiandrei97/",
+        },
+        {
+          thumbnail: "./images/Nithin.png",
+          contributor: "Nithin",
+          contributor_profile: "https://github.com/nith1n",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/nith1n",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/nith1n/",
+        },
+        {
+          thumbnail: "./images/Atul.png",
+          contributor: "Atul",
+          contributor_profile: "https://github.com/atultechd",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/Atultechd",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/Atultechd/",
+        },
+        {
+          thumbnail: "./images/Narender Singh.png",
+          contributor: "Narender",
+          contributor_profile: "https://github.com/narendercoder",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/Narendercoder",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/Narendercoder/",
+        },
+        {
+          thumbnail: "./images/Vaibhav.png",
+          contributor: "Vaibhav",
+          contributor_profile: "https://github.com/vaibhavvijay9",
+          code: "https://github.com/SooryaCodes/Hacktoberfest-2k22-Challenge/tree/mater/designs/vaibhavvijay9",
+          live: "https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/designs/vaibhavvijay9/",
+        },
+      ];
+
+      window.onload = () => {
+        contributions.forEach(
+          ({ contributor, contributor_profile, code, live, thumbnail }) => {
+            document.querySelector(".card_container").innerHTML += ` <div
+        class="hover:shadow-sm border rounded-md w-80 mx-5 p-4 flex items-center justify-center flex-col gap-4 transition duration-300 h-fit"
+      >
+        <img
+        src="${thumbnail}"
+        alt=""
+          class="rounded-sm object-cover"
+        />
+        <div
+          class="flex items-center w-full px-3 justify-center gap-3 font-medium text-slate-700"
+        >
+          <span>Contributor </span>:<a
+            href="${contributor_profile}"
+            target="_blank"
+            class="underline text-slate-600 hover:text-indigo-600 cursor-pointer"
+            >${contributor}</a
+          >
+        </div>
+        <div class="flex items-center justify-between w-full gap-4">
+          <button
+          onclick="window.open('${code}','_blank')"
+            class="hover:shadow-md duration-500 hover:underline w-1/2 border rounded-md text-sm font-medium py-2 text-gray-600"
+          >
+            Code
+          </button>
+          <button
+            onclick="window.open('${live}','_blank')"
+            class="w-1/2 border flex items-center justify-center gap-1 hover:shadow-md duration-500 rounded-md text-sm font-medium tracking-wide py-2 text-white bg-indigo-600 hover:bg-indigo-500"
+          >
+            <i class="ri-external-link-line"></i> Live
+          </button>
+        </div>
+      </div>`;
+          }
+        );
+      };
+    </script>
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="sooryakriz"
+      data-description="Support me on Buy me a coffee!"
+      data-message=""
+      data-color="#5F7FFF"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
+  </body>
+</html>

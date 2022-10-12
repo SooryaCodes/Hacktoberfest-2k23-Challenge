@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #efefef;
+  margin: 0;
+}
+
+.container{
+  width: 312px ;
+  height: 635px;
+  border-radius: 1.5em;
+  background: #fff;
+  box-shadow: 0px 12px 1px -5px #CDDAF3;
+  font-family: 'Mulish', sans-serif;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.image{
+  width: 244px;
+  height: 153px;
+  margin: 33px 33px 25px 33px;
+  border-radius: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #00000066, #00000066),url(brush.png);
+  box-shadow: 0px 17px 17px -10px rgba(110, 107, 255, 0.4);
+}
+
+.play_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3D3AE3ab;
+  color: #fff;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  border-radius: 100%;
+  position: relative;
+}
+
+.pricing{
+  margin-left: 34px;
+}
+
+.strikethrough{
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration-line: line-through;
+  line-height: 18px;
+  color: #464A67;
+}
+
+.new_price_after_discount{
+  margin-top: 5px;
+  display: flex;
+}
+
+.new_price{
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+
+}
+
+.discount{
+  width: 68px;
+  height: 26px;
+  font-size: 13px;
+  color: white;
+  background: #639B1B;
+  border-radius: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+p{
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.buy_now{
+  width: 244px;
+  height: 47px;
+  background: #6E6BFF;
+  box-shadow: 0px 4px 0px #3D3AE3;
+  border-radius: 5px;
+  margin-left: 33px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.add_to_cart{
+  width: 244px;
+  height: 47px;
+  background: #e9e9ff;
+  border-radius: 5px;
+  margin-left: 33px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6e6bff;
+  font-weight: 600;
+}
+
+.text{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #464a67;
+  font-weight: 600;
+}
+
+.info{
+  margin-top: 48px;
+  margin-left: 33px;
+}
+
+.includes{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 136.5%;
+  letter-spacing: 0.115em;
+  text-transform: uppercase;
+  color: #191E45;
+}
+
+.list{
+  margin-left: 16px;
+  margin-top: 9px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #191E45;
+}
