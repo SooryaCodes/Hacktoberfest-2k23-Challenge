@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

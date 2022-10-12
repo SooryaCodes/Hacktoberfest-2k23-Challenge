@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-mdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/drawable_launch_background.xml.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/app/intermediates/merged_res/profile/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "/Users/aninarafath/karmalab_assignment/android/app/src/main/res/mipmap-xhdpi/launcher_icon.png"
+    }
+]

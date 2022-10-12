@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/notification_bg.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/notification_tile_bg.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/notification_icon_background.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/notification_bg_low.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/aninarafath/karmalab_assignment/build/smart_auth/intermediates/merged_res/profile/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/aninarafath/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    }
+]
