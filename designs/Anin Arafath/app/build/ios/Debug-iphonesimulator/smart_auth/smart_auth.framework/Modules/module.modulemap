@@ -1,0 +1,11 @@
+framework module smart_auth {
+  umbrella header "smart_auth-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module smart_auth.Swift {
+  header "smart_auth-Swift.h"
+  requires objc
+}

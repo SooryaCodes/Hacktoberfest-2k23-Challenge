@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PACKAGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "fman.ge.smart_auth",
+  "variantName": "profile",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "outputFile": "../../merged_manifest/profile/AndroidManifest.xml"
+    }
+  ],
+  "elementType": "File"
+}
