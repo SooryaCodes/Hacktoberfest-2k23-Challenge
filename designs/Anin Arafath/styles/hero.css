@@ -31,8 +31,13 @@
     margin: 28px 330px;
 }
 
-.main {
-    z-index: 100;
+main {
+    background: url("../assets/overlay.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
 }
 
 .flex-center {
@@ -187,6 +192,13 @@
         display: none;
 
     }
+
+    main {
+        background: url("../assets/overlay-1.png");
+
+
+
+    }
 }
 
 @media only screen and (max-width:604px) {
@@ -217,6 +229,8 @@
 
 
     }
+
+
 }
 
 @media only screen and (max-width:400px) {
