@@ -1,0 +1,58 @@
+.body{
+    padding: 0;
+    margin: 0;
+    background-color: #a7c8f9;
+}
+
+.main-div{
+    background: linear-gradient(to bottom,  #133e61 0%,#133e61 35%, white 35%,white 60%);
+    width: 25%;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 30px 2px #00000030;
+    margin-top: 100px;
+}
+.topSection{
+    display: flex;
+}
+.topSection h1{
+    color: white;
+    font-size: 16px;
+    margin-left: 40%;
+    margin-top: 120px;
+}
+.topSection img{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.bottomSection{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.bottomSection h4{
+    font-weight: 400;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+.plan{
+    /* margin-bottom: 50px; */
+    /* padding-bottom: 30px; */
+}
+.buy{
+    text-decoration: none;
+    padding: 8px 100px 8px 100px;
+    background-color: #133E61;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 16px;
+    text-align: center;
+    margin: auto;
+    margin-left: 20px;
+    
+}
