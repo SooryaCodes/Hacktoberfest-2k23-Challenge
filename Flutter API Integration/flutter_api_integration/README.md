@@ -1,16 +1,16 @@
-# flutter_api_integration
+# API Integration in Flutter
 
-A new Flutter project.
+<br>
+ 
+Code to integrate API in our application using Flutter.
+<br>
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Preview
+<img src="https://user-images.githubusercontent.com/62079355/197863040-3b562ab6-ff0d-4057-920c-06a88dd07c91.gif" height=600, width=290>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<br>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
