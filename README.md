@@ -1,6 +1,6 @@
-# Hacktoberfest 2k22 Challenge
+# Hacktoberfest 2k23 Challenge
 
-### Contributions list - [Click here](https://sooryacodes.github.io/Hacktoberfest-2k22-Challenge/index.html)
+### Contributions list - [Click here](https://sooryacodes.github.io/Hacktoberfest-2k23-Challenge/index.html)
 
 ---
 
@@ -11,7 +11,7 @@
 3. Clone your fork into your local machine.
 
 ```
-git clone https://github.com/SooryaCodes/Hactoberfest-2k220-Challenge.git
+git clone https://github.com/SooryaCodes/Hacktoberfest-2k23-Challenge.git
 ```
 
 4. Create new folder under `Designs` folder and rename it with your `GitHub username`.
